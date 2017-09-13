@@ -1,0 +1,58 @@
+body {
+	background: #eef6ff;
+}
+
+.flex,div.example  {
+	display: flex;
+ 	justify-content: center;
+ 	margin-bottom: 15px;
+}
+
+div.example {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 22px;
+	font-family: 'Comfortaa', cursive;
+	text-shadow: 0 0 1em #1470cc;
+}
+
+div.example a {
+	text-decoration: none;
+	color:#1470cc;
+}
+
+div.example a:hover {
+	font-weight: bold;
+}
+
+div.box1 {
+	background: red;
+	width: 250px; height: 250px;
+}
+
+div.box2 {
+	background: green;
+	width: 180px; height: 180px;
+}
+
+div.box3 {
+	background: blue;
+	width: 120px; height: 120px;
+}
+
+div.difference {
+	width: 55%;
+	margin:0 auto;
+	border:2px solid #8cc5ff;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family: 'Comfortaa', cursive;
+	line-height: 30px;
+	background: #d1e8ff;
+}
+
+div.difference code {
+	color:#46a3ff;
+	text-shadow: 0 0 2em #198cff;
+}

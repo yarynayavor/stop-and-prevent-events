@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>task "stop & prevent events"</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+</head>
+<body>
+	<div class="difference">
+		Різниця між <code>event.stopPropagation</code> та <code>event.preventDefault</code> в тому, що 
+		<code>event.stopPropagation</code> прописаний в дочірньому елементі буде ігнорувати події всіх його батьківських елементів, так як <code>event.preventDefault</code> лише запобігає діям браузера за замовчуванням. 
+	</div>
+	<div class="example">Приклад з event.stopPropagation</div>
+	<div class="flex">
+		<div class="box box1">
+			<div class="box box2">
+				<div class="box box3">
+
+				</div>
+			</div>
+		</div>
+    </div>
+
+	<div class="example"><p>Приклад з event.preventDefault: 
+		<a href="https://jsfiddle.net/3266qmys/1/">https://jsfiddle.net/3266qmys/1/</a></p>
+	</div>
+    
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
